@@ -1,0 +1,150 @@
+[
+  {
+    "children": [
+      {
+        "col": 2,
+        "end_col": 5,
+        "end_lnum": 11,
+        "kind": "Event",
+        "level": 1,
+        "lnum": 9,
+        "name": "always_comb",
+        "selection_range": {
+          "col": 2,
+          "end_col": 13,
+          "end_lnum": 9,
+          "lnum": 9
+        }
+      },
+      {
+        "col": 2,
+        "end_col": 5,
+        "end_lnum": 21,
+        "kind": "Event",
+        "level": 1,
+        "lnum": 15,
+        "name": "always_ff",
+        "selection_range": {
+          "col": 2,
+          "end_col": 11,
+          "end_lnum": 15,
+          "lnum": 15
+        }
+      },
+      {
+        "col": 2,
+        "end_col": 5,
+        "end_lnum": 30,
+        "kind": "Event",
+        "level": 1,
+        "lnum": 24,
+        "name": "always_latch",
+        "selection_range": {
+          "col": 2,
+          "end_col": 14,
+          "end_lnum": 24,
+          "lnum": 24
+        }
+      },
+      {
+        "col": 2,
+        "end_col": 5,
+        "end_lnum": 33,
+        "kind": "Event",
+        "level": 1,
+        "lnum": 32,
+        "name": "initial"
+      },
+      {
+        "col": 2,
+        "end_col": 9,
+        "end_lnum": 36,
+        "kind": "Function",
+        "level": 1,
+        "lnum": 35,
+        "name": "i2c_eeprom_preload",
+        "selection_range": {
+          "col": 17,
+          "end_col": 35,
+          "end_lnum": 35,
+          "lnum": 35
+        }
+      },
+      {
+        "col": 2,
+        "end_col": 13,
+        "end_lnum": 39,
+        "kind": "Function",
+        "level": 1,
+        "lnum": 38,
+        "name": "do_smth",
+        "selection_range": {
+          "col": 39,
+          "end_col": 46,
+          "end_lnum": 38,
+          "lnum": 38
+        }
+      },
+      {
+        "col": 2,
+        "end_col": 12,
+        "end_lnum": 44,
+        "kind": "Method",
+        "level": 1,
+        "lnum": 41,
+        "name": "core: cva6",
+        "selection_range": {
+          "col": 4,
+          "end_col": 8,
+          "end_lnum": 44,
+          "lnum": 44
+        }
+      }
+    ],
+    "col": 0,
+    "end_col": 9,
+    "end_lnum": 46,
+    "kind": "Module",
+    "level": 0,
+    "lnum": 1,
+    "name": "test_mod",
+    "selection_range": {
+      "col": 7,
+      "end_col": 15,
+      "end_lnum": 1,
+      "lnum": 1
+    }
+  },
+  {
+    "children": [
+      {
+        "col": 2,
+        "end_col": 9,
+        "end_lnum": 51,
+        "kind": "Function",
+        "level": 1,
+        "lnum": 50,
+        "name": "hello_world",
+        "selection_range": {
+          "col": 17,
+          "end_col": 28,
+          "end_lnum": 50,
+          "lnum": 50
+        }
+      }
+    ],
+    "col": 0,
+    "end_col": 10,
+    "end_lnum": 53,
+    "kind": "Module",
+    "level": 0,
+    "lnum": 48,
+    "name": "test_pkg",
+    "selection_range": {
+      "col": 8,
+      "end_col": 16,
+      "end_lnum": 48,
+      "lnum": 48
+    }
+  }
+]

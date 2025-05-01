@@ -391,6 +391,19 @@ M.latex = {
   end,
 }
 
+M.verilog = {
+  postprocess = function(bufnr, item, match)
+    local node = assert(node_from_match(match, "symbol"))
+    if node:type() == "initial_construct" then
+      item.name = "initial"
+    elseif node:type() == "module_instantiation" then
+      local inst_type = assert(node_from_match(match, "inst_type"))
+      local inst_type_string = get_node_text(inst_type, bufnr) or "<parse error>"
+      item.name = item.name .. ": " .. inst_type_string
+    end
+  end,
+}
+
 -- tsx needs the same transformations as typescript for now.
 -- This may not always be the case.
 M.tsx = M.typescript
