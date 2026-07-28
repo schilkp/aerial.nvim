@@ -170,6 +170,7 @@ In addition, you will need to have either Treesitter or a working LSP client. Yo
 - norg
 - nu
 - objdump
+- org
 - php
 - proto
 - puppet
